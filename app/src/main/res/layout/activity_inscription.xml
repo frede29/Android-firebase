@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inscription">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="222dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="99dp"
+        android:text="Inscription"
+        android:textSize="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="270dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/darkgray"
+        android:hint="Nom"
+
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prenom" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="270dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/darkgray"
+
+        android:hint="Prenom"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_width="270dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/darkgray"
+        android:hint="Adresse"
+
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nom" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="270dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/darkgray"
+        android:hint="Email"
+
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adresse" />
+
+    <EditText
+        android:id="@+id/mp"
+        android:layout_width="270dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/darkgray"
+        android:hint="Mot de passe"
+
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="270dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/darkgray"
+        android:hint="Telephone"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mp" />
+
+    <Button
+        android:id="@+id/inscrire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="35dp"
+        android:background="@color/colorPrimary"
+        android:onClick="page2"
+        android:text="S'inscrire"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telephone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

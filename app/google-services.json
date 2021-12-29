@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "549150778436",
+    "firebase_url": "https://gestiondeschauffeurs.firebaseio.com",
+    "project_id": "gestiondeschauffeurs",
+    "storage_bucket": "gestiondeschauffeurs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549150778436:android:86688d15b6a4501dc8c811",
+        "android_client_info": {
+          "package_name": "com.example.gestiondeschauffeurs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549150778436-cf1nnveodn8kcqspkobdh6fpugv6vbjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gestiondeschauffeurs",
+            "certificate_hash": "a3fda22e8c6a86c6582f38b2ec2d373a8d374319"
+          }
+        },
+        {
+          "client_id": "549150778436-25iug5rp2mgdvd8vo96npsv9kj8te544.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJn6v2IgDoOBL7PJHxyLHCo1574v9yyYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549150778436-25iug5rp2mgdvd8vo96npsv9kj8te544.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
